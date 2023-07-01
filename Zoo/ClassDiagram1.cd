@@ -1,0 +1,95 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Zoo.Class.Animal">
+    <Position X="10" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEQAAAAAAAEAAAAQAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Animal.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Fly">
+    <Position X="6.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAgAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Fly.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Ground">
+    <Position X="12.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAgAAAIAAAAAAAAAAAAAEAAAAQAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Ground.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Eagle">
+    <Position X="4" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Eagle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Parrot">
+    <Position X="6.25" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Parrot.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Swan">
+    <Position X="8.5" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Swan.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.EatMeat">
+    <Position X="10.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\EatMeat.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Vegetarian">
+    <Position X="16.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Class\Vegetarian.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Lion">
+    <Position X="9.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Lion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Tiger">
+    <Position X="12" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Tiger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Elephant">
+    <Position X="14.5" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Elephant.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Monkey">
+    <Position X="16.75" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAQAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Monkey.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Zoo.Class.Panda">
+    <Position X="19" Y="9" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAYAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <FileName>Class\Panda.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
