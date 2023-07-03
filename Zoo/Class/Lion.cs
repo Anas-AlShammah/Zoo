@@ -3,10 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Zoo.Interfaces;
 
 namespace Zoo.Class
 {
-    public class Lion : EatMeat
+    public class Lion : EatMeat, IMammals
     {
         public override bool AttackPepole { get; set; }
 
@@ -25,6 +26,16 @@ namespace Zoo.Class
         public override void Sound()
         {
             Console.WriteLine("The lion roars loudly.");
+        }
+
+        public void Play()
+        {
+            Console.WriteLine("The lion plays with other lions.");
+        }
+
+        public void Learn()
+        {
+            Console.WriteLine("The lion learns hunting techniques from its parents.");
         }
     }
 }
