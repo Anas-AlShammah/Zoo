@@ -1,6 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Zoo",
+    "\\Zoo\\Interfaces"
   ],
   "SelectedNode": "\\Zoo.sln",
   "PreviewInSolutionExplorer": false

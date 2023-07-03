@@ -24,7 +24,7 @@ namespace Zoo
             animal5.Sleep();
             animal5.Sound();
             animal6.Sleep();
-            animal6.Sound();
+            animal6.BestPlaceToLives();
             animal7.Sleep();
             animal7.Sound();
          

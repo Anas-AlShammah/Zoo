@@ -24,16 +24,18 @@
   <Class Name="Zoo.Class.Eagle">
     <Position X="4" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAABAAAAAAAAAhAAAgAAAAAA=</HashCode>
       <FileName>Class\Eagle.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Class.Parrot">
     <Position X="6.25" Y="6.25" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA=</HashCode>
+      <HashCode>AAACAAAAAQAAAAAAAAAAAABAAAAAAAAABAAAAAAAAAA=</HashCode>
       <FileName>Class\Parrot.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Class.Swan">
     <Position X="8.5" Y="6.25" Width="1.5" />
@@ -59,16 +61,18 @@
   <Class Name="Zoo.Class.Lion">
     <Position X="9.75" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAhAAAgAAAAAA=</HashCode>
       <FileName>Class\Lion.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Class.Tiger">
     <Position X="12" Y="9" Width="1.5" />
     <TypeIdentifier>
-      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAEAAAAAAAABAAAAAAAAAA=</HashCode>
+      <HashCode>AgAAAAAAAQAAAAAAAAAAAAAEAAAAAAAAhAAAgAAAAAA=</HashCode>
       <FileName>Class\Tiger.cs</FileName>
     </TypeIdentifier>
+    <Lollipop Position="0.2" />
   </Class>
   <Class Name="Zoo.Class.Elephant">
     <Position X="14.5" Y="9" Width="1.5" />
@@ -91,5 +95,19 @@
       <FileName>Class\Panda.cs</FileName>
     </TypeIdentifier>
   </Class>
+  <Interface Name="Zoo.Interfaces.IMammals">
+    <Position X="5.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAgAAAAAA=</HashCode>
+      <FileName>Interfaces\IMammals.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="Zoo.Interfaces.IBirds">
+    <Position X="7.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Interfaces\IBirds.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
   <Font Name="Segoe UI" Size="9" />
 </ClassDiagram>

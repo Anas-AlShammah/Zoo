@@ -1,4 +1,5 @@
 using Zoo.Class;
+using Zoo.Interfaces;
 
 namespace TestProject1
 {
@@ -57,6 +58,62 @@ namespace TestProject1
             // Assert
             string actualMessage = consoleOutput.ToString().Trim();
             Assert.Equal(expectedMessage, actualMessage);
+        }
+        [Fact]
+        public void TestInterfaceImplementation()
+        {
+            
+            IBirds eagle = new Eagle("Eagle", 5);
+            IMammals lion = new Lion("Lion", 8);
+
+            Assert.True(eagle is IBirds);
+            Assert.True(lion is IMammals);
+        }
+
+        [Fact]
+        public void TestInheritance()
+        {
+            Eagle eagle = new Eagle("Eagle", 5);
+            Lion lion = new Lion("Lion", 8);
+
+            Assert.True(eagle is Fly);
+            Assert.True(lion is EatMeat);
+        }
+
+        [Fact]
+        public void TestPolymorphism()
+        {
+            Fly eagle = new Eagle("Eagle", 5);
+            Fly parrot = new Parrot("Parrot", 3);
+
+            eagle.Sleep(); // Outputs: "The eagle sleeps on its perch."
+            parrot.Sleep(); // Outputs: "The parrot sleeps on its perch."
+
+            Assert.True(eagle is Eagle);
+            Assert.True(parrot is Parrot);
+        }
+
+        [Fact]
+        public void TestMethodOverride()
+        {
+            Eagle eagle = new Eagle("Eagle", 5);
+            Parrot parrot = new Parrot("Parrot", 3);
+
+            eagle.Sound(); // Outputs: "The eagle screeches loudly."
+            parrot.Sound(); // Outputs: "The parrot imitates human speech."
+
+            Assert.True(eagle is Eagle);
+            Assert.True(parrot is Parrot);
+        }
+
+        [Fact]
+        public void TestConcreteAnimal()
+        {
+            Eagle eagle = new Eagle("Eagle", 5);
+            Lion lion = new Lion("Lion", 8);
+
+            Assert.True(eagle is Animal);
+            Assert.True(lion is Animal);
         }
 
     }
